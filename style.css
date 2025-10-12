@@ -27,7 +27,9 @@ h1 {
 
 .savebutton{
     display: inline-block;
+    background-color:#7DD1F0;
     width: 450px;
+    height: 30px;
     cursor: pointer;
     border: 2px solid rgb(206, 206, 214);
     border-radius: 5px;
@@ -83,8 +85,13 @@ footer{
 }
 
 #passwordBox {
-  background-color: black;
-  color: white;
-  width: 300px;
-  height: 150px;
+    text-align: center;
+    font-size: 60px;
+    resize: none;
+    background-color:#dae5e9cb;
+    color: black;
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    text-transform: uppercase;
 }
