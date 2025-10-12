@@ -80,6 +80,11 @@ footer{
     position: fixed;
     width: 100%;
     bottom: 0px;
-    
+}
 
+#passwordBox {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 150px;
 }
