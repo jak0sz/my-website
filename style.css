@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+    font-family: "Lucida Console";
+    margin:0px;
+
+}
+
+
+h1 {
+    color:black;
+    text-align: center;
+    
+    
+}
+
+.textbox {
+    color:black;
+    width: 400px;
+    height: 200px;
+    font-size: large;
+    border:2px solid black;
+    border-radius: 10px;
+    background-color: #dae5e9cb;
+    resize: none;
+   
+}
+
+.savebutton{
+    display: inline-block;
+    width: 450px;
+    cursor: pointer;
+    border: 2px solid rgb(206, 206, 214);
+    border-radius: 5px;
+}
+
+div{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #718d9c;
+    padding: 10px 20px;
+    font-size: 40px;
+    background-color: #7DD1F0;
+    border-radius: 50px;    
+}
+
+a{
+    text-decoration: none;
+}
+
+.llink, .rlink{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active{
+    color: rgb(255, 255, 255);
+    cursor: default;
+}
+
+.unactive{
+    color: rgb(5, 1, 202)
+}
+
+footer{
+    text-align: center;
+    background-color: #7DD1F0;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    
+
+}
